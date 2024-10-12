@@ -11,7 +11,7 @@ def get_text(problem):
     text = problem
 
 
-    genai.configure(api_key="AIzaSyDY-P9ow5xwXSYVAosPKmZLA5VA40JTC0k")
+    genai.configure(api_key="")
 
     model = genai.GenerativeModel('gemini-pro')
     text1 = ' Give me only job names with no description'
